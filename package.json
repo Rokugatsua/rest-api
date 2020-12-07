@@ -1,0 +1,24 @@
+{
+  "name": "raspy",
+  "version": "1.0.0",
+  "description": "raspberry rest api project",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "",
+    "start": "nodemon app/server.js"
+  },
+  "keywords": [
+    "rest-api"
+  ],
+  "author": "rokugatsua",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
